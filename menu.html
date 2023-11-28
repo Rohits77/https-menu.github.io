@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title> Food Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+
+<header>
+
+
+<div class="container gray highlightTextIn">
+  <a alt="HOME">HOME</a>
+  <a alt="MENU">MENU</a>
+  <a alt="ORDER HISTORY">ORDER HISTORY</a>
+  <a alt="REPORT">REPORT</a>
+  <a alt="CONTACT">CONTACT</a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <section class="menu-container">
+    <div class="menu-item" id="item1">
+      <img src="briyani.jpg" alt="dish 1">
+      <div class="item-info">
+        <h2>Chicken briyani</h2>
+        
+        <p class="price">₹180</p>
+        <button onclick="addToCart('Dish 1', 180)">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="menu-item" id="item2">
+      <img src="mutton.jpg" alt="Dish 2">
+      <div class="item-info">
+        <h2>Mutton briyani</h2>
+        
+        <p class="price">₹230</p>
+        <button onclick="addToCart('Dish 2', 230)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+<div class="menu-item" id="item2">
+      <img src="wings.jpeg" alt="Dish 3">
+      <div class="item-info">
+        <h2>bbq wings</h2>
+        
+        <p class="price">₹150</p>
+        <button onclick="addToCart('Dish 3', 150)">Add to Cart</button>
+      </div>
+    </div>
+
+
+<div class="menu-item" id="item2">
+      <img src="nuggets.jpg" alt="Dish 4">
+      <div class="item-info">
+        <h2>Chicken nuggets</h2>
+        
+        <p class="price">₹100</p>
+        <button onclick="addToCart('Dish 4', 100)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+<div class="menu-item" id="item2">
+      <img src="pizza.jpg" alt="Dish 5>
+      <div class="item-info">
+        <h2>pepperoni pizza </h2>
+        
+        <p class="price">₹260</p>
+        <button onclick="addToCart('Dish 5', 260)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+<div class="menu-item" id="item2">
+      <img src="shake.jpg" alt="Dish 6>
+      <div class="item-info">
+        <h2>strawberry milkshake </h2> 
+        
+        <p class="price">₹90</p>
+        <button onclick="addToCart('Dish 6',90)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+<div class="menu-item" id="item2">
+      <img src="mojito.jpg" alt="Dish 7">
+      <div class="item-info">
+        <h2>mojito</h2>
+        
+        <p class="price">₹90</p>
+        <button onclick="addToCart('Dish 7', 90)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+<div class="menu-item" id="item2">
+      <img src="pasta.jpg" alt="Dish 8">
+      <div class="item-info">
+        <h2>chicken pasta</h2>
+        
+        <p class="price">₹180</p>
+        <button onclick="addToCart('Dish 8', 180 )">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+
+
+<div class="menu-item" id="item2">
+      <img src="lava.jpg" alt="Dish 9">
+      <div class="item-info">
+        <h2>Molten lava</h2>
+        
+        <p class="price">₹70</p>
+        <button onclick="addToCart('Dish 9', 70)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="menu-item" id="item2">
+      <img src="coffee.jpg" alt="Dish 10">
+      <div class="item-info">
+        <h2>Coffee</h2>
+        
+        <p class="price">₹30</p>
+        <button onclick="addToCart('Dish 10', 30)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="menu-item" id="item2">
+      <img src="burger.jpg" alt="Dish 11">
+      <div class="item-info">
+        <h2>Chicken burger</h2>
+        
+        <p class="price">₹120</p>
+        <button onclick="addToCart('Dish 11', 120)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+<div class="menu-item" id="item2">
+      <img src="fried.jpg" alt="Dish 12">
+      <div class="item-info">
+        <h2>fried chicken</h2>
+       <p>4piece</p>
+        <p class="price">₹300</p>
+        <button onclick="addToCart('Dish 12', 12.99)">Add to Cart</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Add more menu items as needed -->
+
+  </section>
+
+  <aside class="cart">
+    <h2>Shopping Cart</h2>
+    <ul id="cart-list">
+      <!-- Cart items will be dynamically added here -->
+    </ul>
+    <p id="total">Total: $0.00</p>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
